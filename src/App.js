@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ApiCall from './components/apicall/ApiCall';
+// import UseState from './components/usestate/UseState';
+// import UseEffect from './components/useeffect/UseEffect';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UseState></UseState> */}
+      {/* <UseEffect></UseEffect> */}
+      <ApiCall></ApiCall>
     </div>
   );
 }
